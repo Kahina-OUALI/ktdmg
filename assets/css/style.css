@@ -1,0 +1,329 @@
+.cnt--w {
+  color: #eff5eb;
+}
+
+.cnt--b {
+  color: #6ba0bd;
+}
+
+.cnt--b--s {
+  color: #4e7488;
+}
+
+.cnt--g {
+  color: #314B4D;
+}
+
+.cnt--g--s {
+  color: #232E34;
+}
+
+.cnt--bg--w {
+  background-color: #eff5eb;
+}
+
+.cnt--bg--b {
+  background-color: #6ba0bd;
+}
+
+.cnt--bg--b--s {
+  background-color: #4e7488;
+}
+
+.cnt--bg--g {
+  background-color: #314B4D;
+}
+
+.cnt--bg--g--s {
+  background-color: #232E34;
+}
+
+.title {
+  font-family: "Rokkitt", serif;
+}
+
+.sub-title {
+  font-family: "Exo", sans-serif;
+}
+
+.text {
+  font-family: "Biryani", sans-serif;
+}
+
+.btn-outline {
+  padding: 15px;
+  letter-spacing: 1.3px;
+  font-family: "Exo", sans-serif;
+}
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active {
+  transition: all 0.5s;
+}
+
+.btn-outline-secondary {
+  border: 1px solid #314B4D;
+}
+.btn-outline-secondary i {
+  color: #314B4D;
+}
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active {
+  color: #eff5eb;
+  background-color: #314B4D;
+}
+.btn-outline-secondary:hover i, .btn-outline-secondary:focus i, .btn-outline-secondary:active i {
+  color: #eff5eb;
+  margin-left: 5px;
+}
+
+.btn-outline-primary {
+  border: 1px solid #4e7488;
+}
+.btn-outline-primary span {
+  color: #6ba0bd !important;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+  border: 1px solid #232E34;
+  background-color: #232E34;
+}
+
+.btn-acc {
+  background-color: #eff5eb;
+}
+.btn-acc span {
+  color: #314B4D !important;
+}
+.btn-acc:hover, .btn-acc:focus, .btn-acc:active {
+  background-color: #eff5eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  object-fit: cover;
+}
+
+p {
+  text-align: justify;
+}
+
+.header .infos {
+  padding: 20px 0 20px 0;
+  background-color: white;
+}
+.header .infos a {
+  color: #314B4D;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Biryani", sans-serif;
+}
+.header .infos a i {
+  margin-right: 10px;
+}
+@media screen and (max-width: 500px) {
+  .header .infos .a-career {
+    right: 6% !important;
+    top: 22px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header .infos .a-career {
+    top: 10px;
+    right: 17%;
+    position: absolute;
+  }
+}
+.header .navbar {
+  background-color: #314B4D;
+}
+.header .navbar .nav-link {
+  color: #eff5eb;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  font-family: "Exo", sans-serif;
+}
+.header .navbar .nav-link .icon-drop {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header .navbar .nav-link .icon-drop i {
+  color: #6ba0bd;
+}
+.header .navbar .dropdown-menu.show {
+  border: none;
+  background-color: #314B4D;
+}
+.header .navbar .dropdown-menu.show .dropdown-item {
+  color: #eff5eb;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  font-family: "Exo", sans-serif;
+}
+.header .navbar .dropdown-menu.show .dropdown-item:hover, .header .navbar .dropdown-menu.show .dropdown-item:focus {
+  color: #6ba0bd;
+  background-color: transparent;
+}
+.header .mg-1 {
+  margin-top: 10px;
+}
+.header .navbar-toggler {
+  padding: 15px;
+  background-color: #232E34;
+}
+.header .navbar-toggler .navbar-icon {
+  color: #eff5eb;
+}
+@media screen and (max-width: 991px) {
+  .header .navbar-collapse {
+    top: 0;
+    left: 0px;
+    width: 300px;
+    padding: 50px;
+    height: 100%;
+    position: fixed;
+    transition: all 0.5s;
+    background: #314B4D;
+  }
+}
+
+.footer .infos {
+  padding: 40px 0 40px 0;
+}
+.footer .infos h5 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.footer .infos p,
+.footer .infos span {
+  color: #232E34;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer .infos .link-o {
+  margin-bottom: 20px;
+}
+.footer .infos .link-o a {
+  color: #232E34;
+  text-decoration: none;
+}
+.footer .infos .link-o span {
+  margin-left: 5px;
+}
+.footer .infos .link-o .btn-cookies {
+  padding: 15px;
+  color: #314B4D;
+  letter-spacing: 1.3px;
+  border: 1px solid #314B4D;
+}
+.footer .infos .link-o .btn-cookies:hover, .footer .infos .link-o .btn-cookies:focus {
+  color: #eff5eb;
+  background-color: #314B4D;
+}
+.footer .infos .form-news input {
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Biryani", sans-serif;
+}
+.footer .infos .form-news input::placeholder {
+  font-family: "Biryani", sans-serif;
+}
+.footer .infos .form-news .btn {
+  width: 100%;
+}
+.footer .infos--supp {
+  padding: 20px 0 20px 0;
+  background-color: #314B4D;
+}
+.footer .infos--supp .infos--cnt .agency--name {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.footer .infos--supp .infos--cnt .link-res a i {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.footer .infos--supp .copy {
+  font-weight: 700;
+  margin-top: 30px;
+  text-align: end;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 991px) {
+  .footer .infos--supp .copy {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .footer .infos--supp .copy {
+    line-height: 25px;
+  }
+}
+
+.modal .modal-content {
+  padding: 30px;
+  border: none;
+  background-color: #314B4D;
+}
+.modal .modal-content .close-modal {
+  text-align: end;
+}
+.modal .modal-content .close-modal .btn-clo span {
+  color: #eff5eb !important;
+  font-weight: 500;
+}
+.modal .modal-content .close-modal .btn-clo:hover, .modal .modal-content .close-modal .btn-clo:focus {
+  color: #eff5eb;
+}
+.modal .modal-content .logo-modal {
+  text-align: center;
+  margin: 10% 0 10% 0;
+}
+.modal .modal-content .logo-modal .logo {
+  width: 25%;
+}
+.modal .modal-content .header-modal {
+  margin-bottom: 10%;
+}
+.modal .modal-content .header-modal h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.modal .modal-content .text-modal p,
+.modal .modal-content .close-btn p {
+  color: #eff5eb;
+  font-size: 14px;
+  font-weight: 300;
+}
+.modal .modal-content .text-modal strong,
+.modal .modal-content .close-btn strong {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.modal .modal-content .text-modal a,
+.modal .modal-content .close-btn a {
+  font-weight: 800;
+  color: #6ba0bd !important;
+  text-decoration: none;
+  text-transform: none !important;
+}
+.modal .modal-content .close-btn {
+  text-align: end;
+}
+.modal .modal-content .buttons {
+  margin-top: 10%;
+}
+.modal .modal-content .buttons .btn {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
