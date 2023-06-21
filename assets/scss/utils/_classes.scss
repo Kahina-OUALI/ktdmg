@@ -97,3 +97,23 @@
         background-color: $white;
     }
 }
+.btn-bg-g {
+    color: $white;
+    background-color: $green;
+    @media screen and (max-width: $mobile-xs) {
+        width: 100%;
+    }
+    &:hover, 
+    &:focus,
+    &:active {
+        background-color: $second-blue;
+    }
+}
+
+// SECTION 
+
+.section {
+    padding: 10% 0 10% 0%;
+}
+
+// SPAN 

@@ -56,6 +56,11 @@
             .btn {
                 width: 100%;
             }
+            .btn-param {
+                @media screen and (max-width: $tablet-medium) {
+                    margin-bottom: 5%;
+                }
+            }
         }
     }
 }

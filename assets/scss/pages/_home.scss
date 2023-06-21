@@ -1,0 +1,66 @@
+.pres-secteur {
+    img {
+        width: 100%;
+    }
+    .expert {
+        width: 20%;
+        padding: 40px;
+        margin-top: -6%;
+        margin-left: 6%;
+        position: absolute;
+        text-align: center;
+        background-color: white;
+        @media screen and (max-width: 416px) {
+            margin-top: -15%;
+        }
+        @media screen and (max-width: $tablet-medium) {
+            width: 58% !important;
+            margin-bottom: 20%;
+        }
+        @media screen and (max-width: $desktop-large) {
+            width: 30%;
+        }
+        .cnt {
+            color: $white;
+            padding: 20px;
+            background-color: $second-green;
+            .number {
+                font-size: 35px;
+                font-weight: $f800;
+                text-transform: $uppercase;
+            }
+            .year {
+                font-size: 15px;
+                font-weight: $f500;
+                text-transform: $uppercase;
+            }
+        }
+    }
+    #expert {
+        @media screen and (max-width: 600px) {
+            margin-left: 6%;
+        }
+        @media screen and (max-width: $tablet-small) {
+            width: 80% !important;
+        }
+    }
+    .content {
+        padding: 0% 5% 5% 5%;
+        @media screen and (max-width: $mobile-large) {
+            padding: 40% 0% 20% 0% !important;
+        }
+        @media screen and (max-width: $tablet-medium) {
+            padding: 24% 0% 20% 0%;
+        }
+        h2 {
+            font-size: 60px;
+            margin: 0% 0 5% 0;
+            @media screen and (max-width: 600px) {
+                font-size: 50px;
+            }
+            @media screen and (max-width: $tablet-medium) {
+                margin-bottom: 5%;
+            }
+        }
+    }
+}

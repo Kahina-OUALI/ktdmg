@@ -200,6 +200,116 @@
         </nav>
     </header>
 
+    <main class="main" id="main">
+        <section class="slider-presentation slider" id="slider-presentation">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/blog/home/immobilier.webp" class="d-block w-100 img-slide" id="img-slide" alt="Immobilier">
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="sub-title cnt--g" id="h1">Avoir son bien de rêve</h1>
+                            <p class="text cnt--g--s">
+                                Quand on cherche son logement idéal, on se pose plusieurs questions, alors comment faire ? 
+                                Venez découvrir notre article pour le savoir.
+                            </p>
+                            <div class="button">
+                                <a href="blog/trouver-son-logement.html" class="btn btn-bg-g btn-outline sub-title" type="button">
+                                    Voir l'article
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/blog/home/plane.webp" class="d-block w-100 img-slide" id="img-slide" alt="Immobilier">
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="sub-title cnt--g" id="h1">Déménager à l'étranger</h1>
+                            <p class="text cnt--g--s">
+                                Avant de déménager dans un autre pays, vous aurez besoin de récolter plusieurs 
+                                informations pour éviter les surprises une fois sur place.
+                            </p>
+                            <div class="button">
+                                <a href="blog/demenager-a-letranger.html" class="btn btn-bg-g btn-outline sub-title" type="button">
+                                    Voir l'article
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/blog/home/dog.webp" class="d-block w-100 img-slide" id="img-slide" alt="Immobilier">
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="sub-title cnt--g" id="h1">Les animaux de compagnie</h1>
+                            <p class="text cnt--g--s">
+                                Dans certains pays, les animaux sont mal vus et vous aurez des complications pour ramener vos animaux avec vous.
+                            </p>
+                            <div class="button">
+                                <a href="blog/les-animaux.html" class="btn btn-bg-g btn-outline sub-title" type="button">
+                                    Voir l'article
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="prev-icon" aria-hidden="true"><i class="fa-solid fa-arrow-left"></i></span>
+                    <span class="visually-hidden">Précédent</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="next-icon" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span>
+                    <span class="visually-hidden">Suivant</span>
+                </button>
+            </div>
+        </section>
+        <section class="pres-secteur section" id="pres-secteur">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <img src="assets/img/secteur/secteur-pres.webp" class="img" alt="Secteur">
+                        <div class="expert" id="expert">
+                            <div class="cnt">
+                                <span class="number sub-title" id="number">
+                                    10 ans
+                                </span>
+                                <br>
+                                <span class="year sub-title" id="year">
+                                    d'éxperiences
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="content" id="content">
+                            <h2 class="sub-title cnt--g">
+                                Nos secteurs d'activité
+                            </h2>
+                            <div class="card card-sec" id="card-sec">
+                                <div class="title">
+                                    <h3>Immobilier</h3>
+                                </div>
+                                <div class="text-card">
+                                    <p class="text cnt--w">
+                                        Notre équipe s'engage à vous trouver la maison ou l'appartement de vos rêves en fonctions de vos 
+                                        critères que ce soit en France ou à l'étranger.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card card-sec sec-one" id="card-sec">
+                                <div class="title">
+                                    <h3>Déménagement</h3>
+                                </div>
+                                <div class="text-card">
+                                    <p class="text cnt--w">
+                                        Parfois un déménagement peut être compliqué, c'est pourquoi notre équipe est là pour vous, afin de vous 
+                                        aider à tout organisé et déplacer pour plus de facilité. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer" id="footer">
         <div class="infos" id="infos">
             <div class="container">
@@ -308,7 +418,7 @@
                                 <div class="modal-dialog border-radius-none">
                                     <div class="modal-content border-none-radius">
                                         <div class="close-modal">
-                                            <button class="btn btn-clo sub-title c--w" type="button" aria-label="Close">
+                                            <button class="btn btn-clo sub-title c--w" type="button" data-bs-dismiss="modal" aria-label="Close">
                                                 <span>
                                                     Continuer sans accepter <i class="fa-solid fa-xmark"></i>
                                                 </span>
@@ -347,7 +457,7 @@
                                         <div class="buttons">
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-12">
-                                                    <a href="#" class="btn btn-outline-primary btn-outline" type="button" 
+                                                    <a href="#" class="btn btn-outline-primary btn-outline btn-param" type="button" 
                                                     data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">
                                                         <span class="pl">Paramètrer</span>
                                                     </a>

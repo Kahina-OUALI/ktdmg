@@ -3,8 +3,15 @@
 @import "utils/variables.scss";
 @import "utils/classes.scss";
 @import "utils/all.scss";
+@import "utils/extensions.scss";
 
 @import "layout/header.scss";
 @import "layout/footer.scss";
 
 @import "modals/cookies.scss";
+
+@import "slide/simple.scss";
+
+@import "pages/home.scss";
+
+@import "card/cardsec.scss";

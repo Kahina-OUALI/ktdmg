@@ -1,0 +1,64 @@
+.slider {
+    .carousel-caption {
+        bottom: 10rem;
+        width: 30%;
+        padding: 60px;
+        background-color: white;
+        @media screen and (max-width: $mobile-xs) {
+            padding: 40px;
+        }
+        @media screen and (max-width: $tablet-small) {
+            width: 71% !important;
+        }
+        @media screen and (max-width: $desktop-large) {
+            width: 40%;
+        }
+        h1 {
+            font-size: 65px;
+            text-align: $left;
+            @media screen and (max-width: 606px) {
+                font-size: 38px !important;
+            }
+            @media screen and (max-width: $desktop-large) {
+                font-size: 45px;
+            }
+        }
+        #h1 {
+            @media screen and (max-width: $mobile-xs) {
+                font-size: 35px !important;
+            }
+        }
+        p {
+            font-weight: $f300;
+            margin: 5% 0% 5% 0;
+            @media screen and (max-width: $desktop-large) {
+                margin: 10% 0% 10% 0%;
+            }
+        }
+        .button {
+            text-align: left;
+        }
+    }
+    .prev-icon,
+    .next-icon {
+        i {
+            color: white;
+            font-size: 18px;
+        }
+    }
+    img {
+        @media screen and (max-width: $tablet) {
+            height: 85vh !important;
+        }
+    }
+    #img-slide {
+        @media screen and (max-width: $mobile-xs)  {
+            height: 800px !important;
+        }
+    }
+    .img-slide {
+        @media screen and (max-width: 606px) {
+            height: 130vh !important;
+        }
+    }
+}
