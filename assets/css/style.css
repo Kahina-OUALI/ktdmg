@@ -419,7 +419,7 @@ p {
 }
 @media screen and (max-width: 606px) {
   .slider .img-slide {
-    height: 130vh !important;
+    height: 85vh !important;
   }
 }
 
