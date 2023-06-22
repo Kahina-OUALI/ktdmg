@@ -201,6 +201,7 @@ p {
   .header .navbar-collapse {
     top: 0;
     left: 0px;
+    z-index: 999;
     width: 300px;
     padding: 50px;
     height: 100%;
@@ -351,15 +352,10 @@ p {
 }
 
 .slider .carousel-caption {
-  bottom: 10rem;
+  padding: 50px;
   width: 30%;
-  padding: 60px;
+  margin-bottom: 5%;
   background-color: white;
-}
-@media screen and (max-width: 380px) {
-  .slider .carousel-caption {
-    padding: 40px;
-  }
 }
 @media screen and (max-width: 780px) {
   .slider .carousel-caption {
@@ -373,21 +369,17 @@ p {
 }
 .slider .carousel-caption h1 {
   font-size: 65px;
+  font-weight: 600;
   text-align: left;
 }
 @media screen and (max-width: 606px) {
   .slider .carousel-caption h1 {
-    font-size: 38px !important;
+    font-size: 30px !important;
   }
 }
 @media screen and (max-width: 1480px) {
   .slider .carousel-caption h1 {
     font-size: 45px;
-  }
-}
-@media screen and (max-width: 380px) {
-  .slider .carousel-caption #h1 {
-    font-size: 35px !important;
   }
 }
 .slider .carousel-caption p {
@@ -402,25 +394,13 @@ p {
 .slider .carousel-caption .button {
   text-align: left;
 }
+.slider img {
+  height: 100vh;
+}
 .slider .prev-icon i,
 .slider .next-icon i {
   color: white;
   font-size: 18px;
-}
-@media screen and (max-width: 1110px) {
-  .slider img {
-    height: 85vh !important;
-  }
-}
-@media screen and (max-width: 380px) {
-  .slider #img-slide {
-    height: 800px !important;
-  }
-}
-@media screen and (max-width: 606px) {
-  .slider .img-slide {
-    height: 85vh !important;
-  }
 }
 
 .pres-secteur img {
