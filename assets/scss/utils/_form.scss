@@ -1,0 +1,23 @@
+.form {
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0px 3px 5px 4px rgba(0, 0, 0, 0.1);
+    label {
+        color: $second-blue;
+        font-size: 15px;
+        font-weight: $f700;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-family: $sub-title;
+    }
+    input,
+    select, 
+    input[type="date"] {
+        font-size: 13px;
+        padding: 20px;
+        margin-top: 10px;
+        font-weight: $f500;
+        font-family: $text;
+    }
+}

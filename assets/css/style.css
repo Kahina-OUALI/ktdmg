@@ -176,6 +176,7 @@ h3 {
   font-size: 60px;
   font-weight: 600;
   margin: 0% 0 5% 0;
+  font-family: "Exo", sans-serif;
 }
 @media screen and (max-width: 600px) {
   h1,
@@ -190,6 +191,30 @@ h2,
 h3 {
     margin-bottom: 5%;
   }
+}
+
+.form {
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0px 3px 5px 4px rgba(0, 0, 0, 0.1);
+}
+.form label {
+  color: #4e7488;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Exo", sans-serif;
+}
+.form input,
+.form select,
+.form input[type=date] {
+  font-size: 13px;
+  padding: 20px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-family: "Biryani", sans-serif;
 }
 
 .header .infos {
