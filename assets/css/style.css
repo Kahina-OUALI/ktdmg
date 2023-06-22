@@ -109,6 +109,20 @@
   background-color: #4e7488;
 }
 
+.btn-bg-w {
+  color: #f5f5f5;
+  background-color: #6ba0bd;
+}
+@media screen and (max-width: 380px) {
+  .btn-bg-w {
+    width: 100%;
+  }
+}
+.btn-bg-w:hover, .btn-bg-w:focus, .btn-bg-w:active {
+  color: #f5f5f5;
+  background-color: #6ba0bd;
+}
+
 .section {
   padding: 10% 0 10% 0%;
 }
@@ -133,6 +147,10 @@
   .card-l {
     margin-top: 5%;
   }
+}
+
+.card--top {
+  margin-top: 5%;
 }
 
 * {
@@ -547,24 +565,66 @@ h3 {
   background-color: transparent;
 }
 .card-chiffre .icon .ic {
-  color: #f5f5f5;
+  color: #6ba0bd;
   font-size: 55px;
 }
 .card-chiffre .chiffre {
   margin: 5% 0 5% 0;
 }
 .card-chiffre .chiffre .num {
-  color: #4e7488;
+  color: #232E34;
   font-size: 65px;
   font-weight: 700;
   font-family: "Exo", sans-serif;
 }
 .card-chiffre .total .tot {
-  color: #f5f5f5;
+  color: #6ba0bd;
   font-size: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: "Rokkitt", serif;
+}
+
+.card-project {
+  border: none;
+  background-color: transparent;
+}
+.card-project .category {
+  margin-top: 34px;
+  position: absolute;
+  margin-left: -3px;
+  padding: 20px 30px 20px 30px;
+  background-color: #f5f5f5;
+}
+.card-project .category .name-category {
+  color: #6ba0bd;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: "Biryani", sans-serif;
+}
+.card-project img {
+  height: 600px;
+  opacity: 1;
+}
+.card-project .card-body {
+  opacity: 0;
+}
+.card-project:hover img, .card-project:focus img, .card-project:active img {
+  opacity: 0.3s;
+}
+.card-project:hover .card-body, .card-project:focus .card-body, .card-project:active .card-body {
+  padding: 30px;
+  margin-top: -20%;
+  opacity: 1;
+  transition: 0.5s ease;
+  background-color: #232E34;
+}
+.card-project:hover .card-body h4, .card-project:focus .card-body h4, .card-project:active .card-body h4 {
+  color: #6ba0bd;
+}
+.card-project:hover .card-body p, .card-project:focus .card-body p, .card-project:active .card-body p {
+  margin: 5% 0 5% 0;
 }
 
 /*# sourceMappingURL=style.css.map */

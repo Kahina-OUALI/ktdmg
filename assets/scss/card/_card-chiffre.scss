@@ -5,14 +5,14 @@
     background-color: transparent;
     .icon {
         .ic {
-            color: $white;
+            color: $blue;
             font-size: 55px;
         }
     }
     .chiffre {
         margin: 5% 0 5% 0;
         .num {
-            color: $second-blue;
+            color: $second-green;
             font-size: 65px;
             font-weight: $f700;
             font-family: $sub-title;
@@ -20,7 +20,7 @@
     }
     .total {
         .tot {
-            color: $white;
+            color: $blue;
             font-size: 30px;
             letter-spacing: 2px;
             text-transform: uppercase;
