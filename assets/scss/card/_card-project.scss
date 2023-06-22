@@ -21,32 +21,27 @@
     img {
         height: 600px;
         opacity: 1;
+        @media screen and (max-width: $tablet-medium) {
+            height: 400px;
+        }
     }
 
     .card-body {
         opacity: 0;
     }
+    .card-body {
+        padding: 30px;
+        margin-top: -20%;
+        opacity: 1;
+        transition: .5s ease;
+        background-color: $second-green;
 
-    &:hover,
-    &:focus,
-    &:active {
-        img {
-            opacity: 0.3s;
+        h4 {
+            color: $blue;
         }
-        .card-body {
-            padding: 30px;
-            margin-top: -20%;
-            opacity: 1;
-            transition: .5s ease;
-            background-color: $second-green;
 
-            h4 {
-                color: $blue;
-            }
-
-            p {
-                margin: 5% 0 5% 0;
-            }
+        p {
+            margin: 5% 0 5% 0;
         }
     }
 }

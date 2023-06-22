@@ -607,23 +607,25 @@ h3 {
   height: 600px;
   opacity: 1;
 }
+@media screen and (max-width: 991px) {
+  .card-project img {
+    height: 400px;
+  }
+}
 .card-project .card-body {
   opacity: 0;
 }
-.card-project:hover img, .card-project:focus img, .card-project:active img {
-  opacity: 0.3s;
-}
-.card-project:hover .card-body, .card-project:focus .card-body, .card-project:active .card-body {
+.card-project .card-body {
   padding: 30px;
   margin-top: -20%;
   opacity: 1;
   transition: 0.5s ease;
   background-color: #232E34;
 }
-.card-project:hover .card-body h4, .card-project:focus .card-body h4, .card-project:active .card-body h4 {
+.card-project .card-body h4 {
   color: #6ba0bd;
 }
-.card-project:hover .card-body p, .card-project:focus .card-body p, .card-project:active .card-body p {
+.card-project .card-body p {
   margin: 5% 0 5% 0;
 }
 
