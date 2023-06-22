@@ -37,6 +37,8 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="header" id="header">
@@ -264,7 +266,8 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <img src="assets/img/secteur/secteur-pres.webp" class="img" alt="Secteur">
-                        <div class="expert" id="expert">
+                        <div class="expert" id="expert"
+                        data-aos="fade-zoom-in" data-aos-delay="300">
                             <div class="cnt">
                                 <span class="number sub-title" id="number">
                                     10 ans
@@ -278,12 +281,14 @@
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="content" id="content">
-                            <h2 class="sub-title cnt--g">
+                            <h2 class="sub-title cnt--g"
+                            data-aos="flip-up" data-aos-delay="300"> 
                                 Nos secteurs d'activité
                             </h2>
-                            <div class="card card-sec" id="card-sec">
+                            <div class="card card-sec" id="card-sec"
+                            data-aos="flip-up" data-aos-delay="400">
                                 <div class="title">
-                                    <h3>Immobilier</h3>
+                                    <h3 class="sp-title">Immobilier</h3>
                                 </div>
                                 <div class="text-card">
                                     <p class="text cnt--w">
@@ -292,9 +297,10 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="card card-sec sec-one" id="card-sec">
+                            <div class="card card-sec sec-one" id="card-sec"
+                            data-aos="flip-up" data-aos-delay="400">
                                 <div class="title">
-                                    <h3>Déménagement</h3>
+                                    <h3 class="sp-title">Déménagement</h3>
                                 </div>
                                 <div class="text-card">
                                     <p class="text cnt--w">
@@ -303,6 +309,158 @@
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="number-cle section cnt--bg--g" id="number-cle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="sub-title cnt--w"
+                        data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
+                        >Nos chiffres clés</h2>
+                    </div>
+                    <div class="cards">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="card card-chiffre"
+                                data-aos="fade-left"
+                                data-aos-offset="400"
+                                data-aos-easing="ease-in-sine">
+                                    <div class="icon">
+                                        <span class="ic">
+                                            <i class="fa-solid fa-house"></i>
+                                        </span>
+                                    </div>
+                                    <div class="chiffre">
+                                        <span class="num">
+                                            700
+                                        </span>
+                                    </div>
+                                    <div class="total">
+                                        <span class="tot">
+                                            Total
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 card-l">
+                                <div class="card card-chiffre"
+                                data-aos="fade-left"
+                                data-aos-offset="400"
+                                data-aos-easing="ease-in-sine">
+                                    <div class="icon">
+                                        <span class="ic">
+                                            <i class="fa-solid fa-people-group"></i>
+                                        </span>
+                                    </div>
+                                    <div class="chiffre">
+                                        <span class="num">
+                                            400
+                                        </span>
+                                    </div>
+                                    <div class="total">
+                                        <span class="tot">
+                                            Équipe
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 card-s">
+                                <div class="card card-chiffre"
+                                data-aos="fade-right"
+                                data-aos-offset="500"
+                                data-aos-easing="ease-in-sine">
+                                    <div class="icon">
+                                        <span class="ic">
+                                            <i class="fa-solid fa-plane-arrival"></i>
+                                        </span>
+                                    </div>
+                                    <div class="chiffre">
+                                        <span class="num">
+                                            100
+                                        </span>
+                                    </div>
+                                    <div class="total">
+                                        <span class="tot">
+                                            Étranger
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 card-s">
+                                <div class="card card-chiffre"
+                                data-aos="fade-right"
+                                data-aos-offset="500"
+                                data-aos-easing="ease-in-sine">
+                                    <div class="icon">
+                                        <span class="ic">
+                                            <i class="fa-solid fa-language"></i>
+                                        </span>
+                                    </div>
+                                    <div class="chiffre">
+                                        <span class="num">
+                                            5
+                                        </span>
+                                    </div>
+                                    <div class="total">
+                                        <span class="tot">
+                                            Langues
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="us section" id="us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <h3 class="sub-title cnt--g"
+                        data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                            Qui sommes nous ?
+                        </h3>
+                        <span class="sp-title"
+                        data-aos="fade-up"
+                        data-aos-offset="400"
+                        data-aos-easing="ease-in-sine">Notre histoire en quelques lignes</span>
+                        <br>
+                        <br>
+                        <p class="cnt--g--s"
+                        data-aos="fade-up"
+                        data-aos-offset="500"
+                        data-aos-easing="ease-in-sine">
+                            Les fondateurs de notre agence ont pris plusieurs années pour en arriver là. 
+                            Ils n'ont pas lâché, grâce à leurs efforts et à notre équipe, KTDMG a pu atteindre ce niveau.
+                            <br>
+                            L'importance pour nous, c'est de faciliter les démarches pour nos clients, que ce soit en 
+                            Europe ou sur les autres continents.  
+                        </p>
+                        <div class="button"
+                        data-aos="fade-up"
+                        data-aos-offset="600"
+                        data-aos-easing="ease-in-sine">
+                            <br>
+                            <a href="notre-historie.html" class="btn btn-bg-g btn-outline sub-title" type="button">
+                                Découvrir notre histoire
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="img"
+                        data-aos="fade-up"
+                        data-aos-offset="700"
+                        data-aos-easing="ease-in-sine">
+                            <img src="assets/img/propos/propos-home.webp" class="img-fluid" alt="Propos">
                         </div>
                     </div>
                 </div>
@@ -639,5 +797,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" 
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/93f593ecee.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

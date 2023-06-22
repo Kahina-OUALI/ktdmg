@@ -1,0 +1,30 @@
+.card-chiffre {
+    padding: 50px;
+    text-align: center;
+    border: 3px solid $second-blue;
+    background-color: transparent;
+    .icon {
+        .ic {
+            color: $white;
+            font-size: 55px;
+        }
+    }
+    .chiffre {
+        margin: 5% 0 5% 0;
+        .num {
+            color: $second-blue;
+            font-size: 65px;
+            font-weight: $f700;
+            font-family: $sub-title;
+        }
+    }
+    .total {
+        .tot {
+            color: $white;
+            font-size: 30px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-family: $title;
+        }
+    }
+}

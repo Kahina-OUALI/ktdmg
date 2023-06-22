@@ -106,6 +106,7 @@
     &:hover, 
     &:focus,
     &:active {
+        color: $white;
         background-color: $second-blue;
     }
 }
@@ -114,6 +115,27 @@
 
 .section {
     padding: 10% 0 10% 0%;
+    @media screen and (max-width: $mobile-sm) {
+        padding: 15% 0 15% 0%;
+    }
 }
 
-// SPAN 
+// SPAN
+
+.sp-title {
+    font-size: 22px;
+    margin-bottom: 5%;
+    font-weight: $f800;
+    font-family: $title;
+}
+
+// CARD
+
+.card-s {
+    margin-top: 5%;
+}
+.card-l {
+    @media screen and (max-width: $mobile-large) {
+        margin-top: 5%;
+    }
+}
