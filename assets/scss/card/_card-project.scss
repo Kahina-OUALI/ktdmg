@@ -2,22 +2,6 @@
     border: none;
     background-color: transparent;
 
-    .category {
-        margin-top: 34px;
-        position: absolute;
-        margin-left: -3px;
-        padding: 20px 30px 20px 30px;
-        background-color: $white;
-
-        .name-category {
-            color: $blue;
-            font-weight: $f600;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            font-family: $text;
-        }
-    }
-
     img {
         height: 600px;
         opacity: 1;
@@ -29,19 +13,26 @@
     .card-body {
         opacity: 0;
     }
-    .card-body {
-        padding: 30px;
-        margin-top: -20%;
-        opacity: 1;
-        transition: .5s ease;
-        background-color: $second-green;
-
-        h4 {
-            color: $blue;
-        }
-
-        p {
-            margin: 5% 0 5% 0;
+    &:hover,
+    &:focus,
+    &:active {
+        .card-body {
+            padding: 30px;
+            margin-top: -20%;
+            opacity: 1;
+            transition: .5s ease;
+            background-color: $second-green;
+    
+            h4 {
+                font-size: 25px;
+                color: $blue;
+                font-family: $title;
+            }
+    
+            p {
+                font-size: 17px !important;
+                margin: 5% 0 5% 0;
+            }
         }
     }
 }
